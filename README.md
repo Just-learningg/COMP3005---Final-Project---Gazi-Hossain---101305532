@@ -49,5 +49,7 @@ Final project for COMP3005, This project implements a complete fitness club mana
 3. Time format must be HH:MM
 4. ILIKE is used for case-insensitive searching
 5. LIMIT 1 is used to get the mose recent record
+6. Search by Member uses email too, this is for if theres is a another member with name first and last name
+7. Tried my best to say everything I could in less than 15 minutes for the video. I could have given a better, more thorough explanation if I had more than 15 mins! 
 
-##VIDEO LINK - 
+##VIDEO LINK - https://youtu.be/xNNOBfuO06c?si=pBOFjI208_1kZ2Pr
