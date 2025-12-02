@@ -7,19 +7,21 @@ Final project for COMP3005, This project implements a complete fitness club mana
   - Java JDBC application(frontend)
 
 #Project Contents:
-1. ER Diagram
-  - Complete database relationship diagram
+##1. ER Diagram
+- Complete database relationship diagram
 
-2. DDL scripts 
-  - Tables(12 Total): Member, Contact, Trainers, Room, Session, AdministrativeStaff, SessionAdmin,
+---
+
+##2. DDL scripts 
+- **Tables(12 Total):** Member, Contact, Trainers, Room, Session, AdministrativeStaff, SessionAdmin,
                     MemberSubscription, SubscriptionAdmin, PersonalFitnessData, FitnessDataRecords,
                     PaymentRecords.
-  - Constraints - Primary keys, foreign keys, identity columns and cascades.
-  - Indexes - Member(first name, last name), Trainer(first name, last name), Room(Room name) and Session(Date, time)
-  - Views - SessionsforEachMember and TrainerPTSessionsView
-  - Triggers - check_room(Prevents Double Bookings), check_fitness_date(Prevent more than 1 FitnessDateRecord per day) and check_payment_date(Prevents more than 1 payment per member)
+- **Constraints** - Primary keys, foreign keys, identity columns and cascades.
+- **Indexes** - Member(first name, last name), Trainer(first name, last name), Room(Room name) and Session(Date, time)
+- **Views** - SessionsforEachMember and TrainerPTSessionsView
+- **Triggers** - check_room(Prevents Double Bookings), check_fitness_date(Prevent more than 1 FitnessDateRecord per day) and check_payment_date(Prevents more than 1 payment per member)
 
-3. DML Script
+##3. DML Script
   - Includes a minimum of 5 rows for each Table(Run 3 different queries for complete insertion)
 
 4. Java JDBC Application
