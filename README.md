@@ -49,3 +49,5 @@ Final project for COMP3005, This project implements a complete fitness club mana
 3. Time format must be HH:MM
 4. ILIKE is used for case-insensitive searching
 5. LIMIT 1 is used to get the mose recent record
+
+##VIDEO LINK - 
