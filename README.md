@@ -25,16 +25,16 @@ Final project for COMP3005, This project implements a complete fitness club mana
 
 4. Java JDBC Application
 - Contains the full application code which implements -
-      - MemberRegistration - with a membership subscription and a payment
-      - MemberProfile management - updates personal details for members, adding more contacts
-      - HealthHistory - gets members theirs metric entries, personal goals
-      - MemberDashborad - shows member details, their latest health stats, personal goal and upcoming sessions.
-      - PTscheduling - schedules sessions for members(safe from double bookings)
-      - TrainPTVIew - gets all upcoming scheduled sessions for trainers
-      - MemberSearch - gets trainers the most recent health stats and goal of a member they search(case-insensitive)
-      - RoomUpdate - updates Room number for a session
-      - PaymentManagement - allows to make a payment
-      - MembershipManagement - allows to update status of a member.
+      >> MemberRegistration - with a membership subscription and a payment
+      >> MemberProfile management - updates personal details for members, adding more contacts
+      >> HealthHistory - gets members theirs metric entries, personal goals
+      >> MemberDashborad - shows member details, their latest health stats, personal goal and upcoming sessions.
+      >> PTscheduling - schedules sessions for members(safe from double bookings)
+      >> TrainPTVIew - gets all upcoming scheduled sessions for trainers
+      >> MemberSearch - gets trainers the most recent health stats and goal of a member they search(case-insensitive)
+      >> RoomUpdate - updates Room number for a session
+      >> PaymentManagement - allows to make a payment
+      >> MembershipManagement - allows to update status of a member.
 
 #How to Run:
 1. Make sure to have a database in pgAdmin with the given schema(DDL.sql)
