@@ -753,9 +753,8 @@ public class Final_Project_Application_GYM_management {
 
 
     }
-
     static void updateMemberSubscription(Statement statement, String status, String type, int memberID, int adminID){
-        String sql = String.format("UPDATE MemberSubscriptions SET member_status = '%s', SET member_type = '%s'" +
+        String sql = String.format("UPDATE MemberSubscriptions SET member_status = '%s', member_type = '%s'" +
                                     " WHERE memberID = '%d'",status,type,memberID);
 
         try{
@@ -765,7 +764,7 @@ public class Final_Project_Application_GYM_management {
             throw new RuntimeException(e);
         }
         int subID = getSubscriptionID(statement,memberID);
-        String sql_add_admin = String.format("INSERT INTO SubscriptionAdmin VALUES ('%d','%d')",adminID,subID);
+        String sql_add_admin = String.format("INSERT INTO SubscriptionAdmin VALUES ('%d','%d')",subID,adminID);
         try{
             statement.executeUpdate(sql_add_admin);
             System.out.println("Row added!");
@@ -775,7 +774,6 @@ public class Final_Project_Application_GYM_management {
 
 
     }
-
     static void getAllPaymentRecords(Statement statement, int memberID){
         int subID = getSubscriptionID(statement, memberID);
 
@@ -846,3 +844,4 @@ public class Final_Project_Application_GYM_management {
 
 
 }
+
